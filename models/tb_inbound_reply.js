@@ -6,7 +6,8 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: false,
             validate: {
                 notEmpty: false
-            }, primaryKey: true
+            }, primaryKey: true,
+            autoIncrement: true
         },
         inbound_id: {
             type: DataTypes.INTEGER,

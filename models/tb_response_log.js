@@ -6,7 +6,8 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: false,
             validate: {
                 notEmpty: false
-            }, primaryKey: true
+            }, primaryKey: true,
+            autoIncrement: true
         },
         target_queue_id: {
             type: DataTypes.INTEGER,

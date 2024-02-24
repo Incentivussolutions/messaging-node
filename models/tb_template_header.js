@@ -6,7 +6,8 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: true,
             validate: {
                 notEmpty: false
-            }, primaryKey: true
+            }, primaryKey: true,
+            autoIncrement: true
         },
         template_id: {
             type: DataTypes.SMALLINT,

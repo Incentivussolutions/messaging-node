@@ -7,6 +7,7 @@ module.exports = (sequelize, Sequelize) => {
             validate: {
                 notEmpty: false
             }, primaryKey: true,
+            autoIncrement: true,
             autoIncrement: true
         },
         message_ref_id: {

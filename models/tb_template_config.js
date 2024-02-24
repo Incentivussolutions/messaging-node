@@ -7,7 +7,8 @@ module.exports = ( Sequelize) => {
             allowNull: false,
             validate: {
                 notEmpty: false
-            }, primaryKey: true
+            }, primaryKey: true,
+            autoIncrement: true
         },
         template_name: {
             type: DataTypes.STRING,
